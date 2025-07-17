@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0B4740] text-white py-20  mt-16">
+    <footer className="bg-[#0B4740] text-white py-20  ">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-28">
         {/* Left: Logo and tagline */}
         <div className="flex-1 min-w-[220px] flex flex-col gap-4">
@@ -17,16 +17,18 @@ export default function Footer() {
         <div className="flex-1 flex flex-row justify-center gap-16 min-w-[320px]">
           <div className="flex flex-col gap-2 text-[#B6D0C6] text-sm">
             <span className="font-semibold text-white mb-2">Company Info</span>
-            <a href="#" className="hover:underline">About Us</a>
-            <a href="#" className="hover:underline">Privacy</a>
-            <a href="#" className="hover:underline">Terms</a>
-            <a href="#" className="hover:underline">Solution</a>
+            <a href="/about" className="hover:underline hover:text-white transition-colors">About Us</a>
+            <a href="/solution" className="hover:underline hover:text-white transition-colors">Solution</a>
+            <a href="/how-it-works" className="hover:underline hover:text-white transition-colors">How it works</a>
+            <a href="/pricing" className="hover:underline hover:text-white transition-colors">Pricing</a>
+            <a href="/contact" className="hover:underline hover:text-white transition-colors">Contact us</a>
           </div>
           <div className="flex flex-col gap-2 text-[#B6D0C6] text-sm">
-            <span className="font-semibold text-white mb-2">&nbsp;</span>
-            <a href="#" className="hover:underline">Pricing Us</a>
-            <a href="#" className="hover:underline">How it works</a>
-            <a href="#" className="hover:underline">Contact us</a>
+            <span className="font-semibold text-white mb-2">Legal</span>
+            <a href="/privacy" className="hover:underline hover:text-white transition-colors">Privacy Policy</a>
+            <a href="/terms" className="hover:underline hover:text-white transition-colors">Terms of Service</a>
+            <a href="/cookies" className="hover:underline hover:text-white transition-colors">Cookie Policy</a>
+            <a href="/security" className="hover:underline hover:text-white transition-colors">Security</a>
           </div>
         </div>
         {/* Right: Contact Info */}
