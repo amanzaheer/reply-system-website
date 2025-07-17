@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import AboutHero from "../../components/about/Hero";
-import Community from "../../components/about/Community";
-import Events from "../../components/about/Events";
-import Careers from "../../components/about/Careers";
-import News from "../../components/about/News";
-import LogoDownload from "../../components/about/LogoDownload";
+import AboutHero from "../../components/About/Hero";
+import Community from "../../components/About/Community";
+import Events from "../../components/About/Events";
+import Careers from "../../components/About/Careers";
+import News from "../../components/About/News";
+import LogoDownload from "../../components/About/LogoDownload";
 
 export default function About() {
   return (
