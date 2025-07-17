@@ -15,11 +15,14 @@ export default function PricingHeader() {
                 Customer Service Suite Plans
               </h1>
               <p className="text-lg text-gray-700 leading-relaxed">
-                The complete, AI-powered customer service solution with ticketing, live chat and messaging, help center, and voice. All plans drive efficiency with automations and AI agents, available 24/7 to solve customer issues.
+                The complete, AI-powered customer service solution with
+                ticketing, live chat and messaging, help center, and voice. All
+                plans drive efficiency with automations and AI agents, available
+                24/7 to solve customer issues.
               </p>
             </div>
           </div>
-          
+
           {/* Right side - Employee Service Suite */}
           <div className="space-y-4">
             <div className="flex items-center   gap-3 mb-4">
@@ -30,13 +33,23 @@ export default function PricingHeader() {
                 NEW
               </span>
             </div>
-            <a 
-              href="#" 
+            <a
+              href="#"
               className="inline-flex items-center gap-2 text-[#05444B] font-semibold hover:text-[#7ED957] transition-colors border-b border-[#05444B] pb-1 hover:border-[#7ED957]"
             >
               See plans and pricing
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
               </svg>
             </a>
           </div>
@@ -44,4 +57,4 @@ export default function PricingHeader() {
       </div>
     </section>
   );
-} 
+}
